@@ -6,7 +6,7 @@ class WelcomeComponet extends React.Component {
   render() {
     return (
       <React.Fragment>
-        <h1>02_componentReuse</h1>
+        <h1>03_properties </h1>
       </React.Fragment>
     );
   }
