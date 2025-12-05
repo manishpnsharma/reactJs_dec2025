@@ -9,11 +9,8 @@ import React from "react";
     </>
   );
 } */
-
-
-
-
-const OSComponet = (props) => {
+/*
+const OSComponet = ({ props }) => {
   return (
     <>
       <h1> Oprating system Arrow : {props.os} {props.age} </h1>
@@ -22,7 +19,29 @@ const OSComponet = (props) => {
       <h1> develop by   : {props.children}</h1>
     </>
   );
+} */
+
+const OSComponet = ({ os, children }) => {
+  return (
+    <>
+      <h1> Oprating system Arrow : {os} {age} </h1>
+
+      <h1> Age  :  {age} </h1>
+      <h1> develop by   : {children}</h1>
+    </>
+  );
 }
+/*
+props = {
+  os: "wind",
+  children: "Micro"
+}
+
+var os = props.os;
+var children = props.children;
+var age = props.age;
+
+var { os, children, age } = props; */
 
 /*
 props = {

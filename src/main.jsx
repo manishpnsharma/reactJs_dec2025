@@ -10,8 +10,10 @@ import { createRoot } from 'react-dom/client'
 import './01_welcome/myindex.css';
 // import {App} from  './01_welcome/App.jsx'
 //import App from  './02_componentReuse/App.jsx'
-import App from './03_properties/Function_a.jsx'
+
 //import App from  './03_properties/App.jsx'
+//import App from './03_properties/Function_a.jsx'
+import App from './03_properties/VariableInitlization.jsx'
 //import App from './04_events/App'
 
 
