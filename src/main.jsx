@@ -13,11 +13,11 @@ import './01_welcome/myindex.css';
 
 //import App from  './03_properties/App.jsx'
 //import App from './03_properties/Function_a.jsx'
-import App from './03_properties/VariableInitlization.jsx'
+//import App from './03_properties/VariableInitlization.jsx'
 //import App from './04_events/App'
 
-
-
+//import App from './07_defaultProps/App_1.jsx';
+//import App from './07_defaultProps/App.jsx';
 
 
 
