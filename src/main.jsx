@@ -26,11 +26,9 @@ import './01_welcome/myindex.css';
  // import App from './Assignment/Assigment1.jsx';
 
 
- import App from './09_composableComponents/ComposableComponents.jsx';
+ import App from './09_composableComponents/App.jsx';
   
-
-
-
+ 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

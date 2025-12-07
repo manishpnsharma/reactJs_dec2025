@@ -1,25 +1,15 @@
 import React from "react";
-
-import React from "react";
-export default class App extends React.Component {
-  add(e) {
-    alert('Add'+e);
-  }
-  edit() {
-    alert('edit');
-  }
-  delete() {
-    alert('delete');
-  }
+export default class Comment extends React.Component {
   render() {
     return (
-      <>
-        <h2>  Components  </h2>
-        <button onClick={() => this.add('Ram')}> Add </button>
-         <button onClick={() => this.edit()}> edit </button>
-          <button onClick={() => this.delete()}> delete </button>
-      </>
+      <tr>
+        <td>
+          {this.props.author}
+        </td>
+        <td>
+          {this.props.children}
+        </td>
+      </tr>
     );
   }
 }
-

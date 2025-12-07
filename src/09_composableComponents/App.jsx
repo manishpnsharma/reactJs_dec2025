@@ -1,10 +1,9 @@
 import React from 'react';
-
-import AllComponentsPage  from './components/AllCommentsPage';
-
-export default class App extends React.Component{
-
-  render(){
-    <AllComponentsPage/>
-  }
+import AllCommentsPage from './components/AllCommentsPage';
+export default class App extends React.Component {
+  render() {
+    return (
+      < AllCommentsPage />
+    );
+  };
 }

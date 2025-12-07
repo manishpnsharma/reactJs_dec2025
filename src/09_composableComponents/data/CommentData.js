@@ -1,17 +1,19 @@
 export default {
-    Comments:
+    comments:
         [{
-
             "id": 1,
             "author": "Vinay",
-            "text": "Vinay Vinay Vinay"
+            "text": "Kumar"
         },
-
         {
-
             "id": 2,
-            "author": "rammm",
-            "text": "rammm rammm rammm"
+            "author": "Manish",
+            "text": "Sharma"
+        },
+        {
+            "id": 3,
+            "author": "Nanish",
+            "text": "Sharma"
         }
         ]
 };
