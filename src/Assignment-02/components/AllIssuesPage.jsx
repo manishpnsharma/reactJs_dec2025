@@ -9,7 +9,7 @@ const AllIssuesPage = () => {
   ]);
   return (
     <div>
-      <h1>All Issues</h1>
+      <h1> Issue List</h1>
       <IssuesList issues={issues} />
     </div>
   );

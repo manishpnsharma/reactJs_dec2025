@@ -31,7 +31,9 @@ import './01_welcome/myindex.css';
  //import App from './Assignment_1/App.jsx';
 
   //import App from './Assignment_1a/App.jsx';
-    import App from './Assignment_1b/App.jsx';
+   // import App from './Assignment_1b/App.jsx';
+	
+	 import App from './Assignment-02/App.jsx';
   
  
 createRoot(document.getElementById('root')).render(
