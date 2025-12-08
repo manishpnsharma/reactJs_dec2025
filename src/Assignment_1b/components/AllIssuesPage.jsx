@@ -1,23 +1,17 @@
 import React, { useState } from 'react';
 import IssuesList from './IssuesList';
-
 const AllIssuesPage = () => {
   const [issues] = useState([
-
-    { id: 1, description: 'Bug in login form', severity: " Hi", status: 'Open' },
-    { id: 2, description: 'Bug in 2', severity: " H2i", status: 'Open' },
-    { id: 3, description: 'Bug in login form', severity: " Hi", status: 'Open' },
-    { id: 4, description: 'Bug in 2', severity: " H2i", status: 'Open' }
-    // ... more issues
+    { id: 1, description: 'Bug in login form', severity: " P1", status: 'Open' },
+    { id: 2, description: 'Bug in payment form', severity: " P1", status: 'Open' },
+    { id: 3, description: 'Bug in looger ', severity: " P2", status: 'Close' },
+    { id: 4, description: 'Bug in connection', severity: " P3", status: 'Open' }
   ]);
-
   return (
     <div>
       <h1>All Issues</h1>
-      {/* Pass the issues data to the IssuesList component */}
       <IssuesList issues={issues} />
     </div>
   );
 };
-
 export default AllIssuesPage;

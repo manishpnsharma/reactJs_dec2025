@@ -4,10 +4,10 @@ const Issue = ({ issue }) => {
   const { id, description, severity, status } = issue;
   return (
     <tr>
-      <th>ID</th>
-      <th>description</th>
-      <th>severity</th>
-      <th>status</th>
+      <td>{id}</td>
+      <td>{description}</td>
+      <td>{severity}</td>
+      <td>{status}</td>
     </tr>
   );
 };

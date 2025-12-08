@@ -1,27 +1,21 @@
 import React from 'react';
 import Issue from './Issue';
-
 const IssuesList = ({ issues }) => {
   return (
     <table border="1">
       <thead>
-      <tr>
-        <th>ID 1</th>
-        <th>description 2</th>
-        <th>severity 3</th>
-        <th>status 4</th>
-
-      </tr>
+        <tr>
+          <th>ID</th>
+          <th>Description</th>
+          <th>Severity</th>
+          <th>Status</th>
+        </tr>
       </thead>
-     
-        <tbody>
-          {issues.map(issue => (
-            // The 'key' prop is essential for performance and proper rendering of lists
-            <Issue key={issue.id} issue={issue} />
-          ))} 
-          
-        </tbody>
-      
+      <tbody>
+        {issues.map(issue => (
+          <Issue key={issue.id} issue={issue} />
+        ))}
+      </tbody>
     </table>
   );
 };
