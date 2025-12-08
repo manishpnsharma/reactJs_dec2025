@@ -28,7 +28,10 @@ import './01_welcome/myindex.css';
 
  //import App from './09_composableComponents/App.jsx';
 
- import App from './Assignment_1/App.jsx';
+ //import App from './Assignment_1/App.jsx';
+
+  //import App from './Assignment_1a/App.jsx';
+    import App from './Assignment_1b/App.jsx';
   
  
 createRoot(document.getElementById('root')).render(
