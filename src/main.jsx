@@ -7,7 +7,7 @@ import { createRoot } from 'react-dom/client'
 //import App from './components/App.jsx'
 //import App from './pages/App.jsx'
 //import App from './pages/HomePage.jsx'
-import './01_welcome/myindex.css';
+//import './01_welcome/myindex.css';
 // import {App} from  './01_welcome/App.jsx'
 //import App from  './02_componentReuse/App.jsx'
 
@@ -23,19 +23,21 @@ import './01_welcome/myindex.css';
 
 //import App from './Assignment/Assigment2.jsx';
 
- // import App from './Assignment/Assigment1.jsx';
+//import App from './Assignment/Assigment1.jsx';
 
 
- import App from './09_composableComponents/App.jsx';
+//import App from './09_composableComponents/App.jsx';
 
- //import App from './Assignment_1/App.jsx';
+//import App from './Assignment_1/App.jsx';
 
-  //import App from './Assignment_1a/App.jsx';
-   // import App from './Assignment_1b/App.jsx';
-	
-	 //import App from './Assignment-02/App.jsx';
-  
- 
+//import App from './Assignment_1a/App.jsx';
+//import App from './Assignment_1b/App.jsx';
+
+//import App from './Assignment-02/App.jsx';
+
+import App from './09a_composableComponents/App.jsx';
+
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />

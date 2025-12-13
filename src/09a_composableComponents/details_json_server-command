@@ -1,0 +1,28 @@
+refrence : https://github.com/typicode/json-server/tree/v0
+
+
+D:\react_ws\demo-app\src\09a_composableComponents>json-server --watch db.json
+
+
+  \{^_^}/ hi!
+
+  Loading db.json
+  Done
+
+  Resources
+  http://localhost:3000/comments
+
+  Home
+  http://localhost:3000
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+https://jsonplaceholder.typicode.com/
+
+
+
+
+create own data
+https://my-json-server.typicode.com/'
+
