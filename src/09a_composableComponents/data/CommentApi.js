@@ -1,7 +1,7 @@
 import axios from 'axios';
 //import CommentData from './CommentData';
 export default class CommentApi {
-     static async getAllComments() {
+    static async getAllComments() {
         // return CommentData.comments;
         try {
             const response = await axios.get('http://localhost:3001/comments');
@@ -12,7 +12,7 @@ export default class CommentApi {
             throw error;
         }
     }
-} 
+}
 /*
 // old aproch
 export default class CommentApi {
