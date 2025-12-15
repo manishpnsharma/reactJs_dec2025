@@ -1,6 +1,6 @@
 import axios from 'axios';
 //import CommentData from './CommentData';
-/*export default class CommentApi {
+export default class CommentApi {
      static async getAllComments() {
         // return CommentData.comments;
         try {
@@ -12,11 +12,13 @@ import axios from 'axios';
             throw error;
         }
     }
-} */
+} 
+/*
+// old aproch
 export default class CommentApi {
     static getAllComments() {
         return axios.get('http://localhost:3001/comments')
             .then(response => response.data).
             catch(error => console.log('methos faild  : ${error.message}'))
     }
-}
+} */
