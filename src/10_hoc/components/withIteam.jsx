@@ -1,5 +1,4 @@
-import React from "react";
-import Comment from "./Comment";
+import React, { component } from "react";
 export default class CommentList extends React.Component {
   render() {
     let commentNodes = this.props.comments && this.props.comments.map(comment => (
@@ -9,7 +8,7 @@ export default class CommentList extends React.Component {
     ));
     return (
       <>
-        <table>
+        <table border="1">
           <thead>
             <tr>
               <th> Author</th>

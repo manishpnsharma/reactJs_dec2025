@@ -1,0 +1,43 @@
+
+1. below section is Not working due to making charg first refrence : https://github.com/typicode/json-server/tree/v0
+ https://jsonplaceholder.typicode.com/
+create own data
+https://my-json-server.typicode.com/'
+https://my-json-server.typicode.com/manishpnsharma/reactJs_dec2025
+https://my-json-server.typicode.com/manishpnsharma/reactJs_dec2025
+
+https://github.com/typicode/demo/blob/manishpnsharma/reactJs_dec2025/blob/reactJs_dec2025/src/09a_composableComponents/db.json
+
+======================================================================================
+
+2. 
+   a. create json file like ::: src/09a_composableComponents/db.json
+   b. Run the json server using  command json-server --watch db.json
+          D:\react_ws\demo-app\src\09a_composableComponents>json-server --watch db.json
+           \{^_^}/ hi!
+            Loading db.json
+            Done
+   c. open below url in browser for check json server is working or not
+  Resources :  http://localhost:3000/comments
+  Home :  http://localhost:3000
+
+=========================================================================================
+
+  Type s + enter at any time to create a snapshot of the database
+  Watching...
+
+https://github.com/typicode/demo/blob/[main|master]/db.json
+https://github.com/manishpnsharma/reactJs_dec2025/reactJs_dec2025/src/09a_composableComponents/db.json
+manishpnsharma/reactJs_dec2025/blob/reactJs_dec2025/src/09a_composableComponents
+https://github.com/manishpnsharma/reactJs_dec2025/blob/reactJs_dec2025/src/09a_composableComponents/db.json
+https://github.com/manishpnsharma/reactJs_dec2025/blob/reactJs_dec2025/db.json
+https://github.com/manishpnsharma/reactJs_dec2025/blob/reactJs_dec2025/db.json
+D:\react_ws\demo-app\src\09a_composableComponents>json-server -p 3001 -w db.json -d 2000
+https://www.npmjs.com/package/axios
+
+
+
+
+
+
+
