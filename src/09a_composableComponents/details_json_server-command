@@ -47,4 +47,24 @@ manishpnsharma/reactJs_dec2025/blob/reactJs_dec2025/src/09a_composableComponents
 https://github.com/manishpnsharma/reactJs_dec2025/blob/reactJs_dec2025/src/09a_composableComponents/db.json
 
 
+https://github.com/manishpnsharma/reactJs_dec2025/blob/reactJs_dec2025/db.json
+
+
+
+https://github.com/typicode/demo/blob/[main|master]/db.json
+
+
+https://github.com/manishpnsharma/reactJs_dec2025/blob/reactJs_dec2025/db.json
+
+
+
+Create a repository on GitHub (<your-username>/<your-repo>)
+Create a db.json file
+Visit https://my-json-server.typicode.com/manishpnsharma/reactJs_dec2025 to access your server
+
+D:\react_ws\demo-app\src\09a_composableComponents>json-server -p 3001 -w db.json -d 2000
+
+
+
+
 

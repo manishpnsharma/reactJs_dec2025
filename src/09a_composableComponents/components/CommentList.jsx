@@ -9,7 +9,7 @@ export default class CommentList extends React.Component {
     ));
     return (
       <>
-        <table>
+         <table border="1">
           <thead>
             <tr>
               <th> Author</th>
