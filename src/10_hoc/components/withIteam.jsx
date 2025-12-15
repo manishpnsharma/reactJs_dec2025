@@ -1,26 +1,25 @@
 import React, { component } from "react";
-export default class CommentList extends React.Component {
-  render() {
-    let commentNodes = this.props.comments && this.props.comments.map(comment => (
-      <Comment key={comment.id} author={comment.author}>
-        {comment.text}
-      </Comment>
-    ));
-    return (
-      <>
-        <table border="1">
-          <thead>
-            <tr>
-              <th> Author</th>
-              <th> coments</th>
-            </tr>
-          </thead>
-          <tbody>
-            {commentNodes}
-          </tbody>
-        </table>
-      </>
-    );
-  }
-}
 
+const withItem = (WrappedComponent, toUpper) => {
+  class WithItemComp extends React.Component {
+    constructor(props) {
+      super(props);
+      this.state = { items: [] }
+    }
+    addItem = (itemName) => {
+      this.setState(prevState => {
+        return { items: [...prevState.items, toUpper ? itemName.toUpperCase() : itemName] };
+      })
+    }
+    render() {
+      return (
+        <WrappedComponent
+          items={this.state.items}
+          addItem={this.addItem}
+          {...this.props} />
+      )
+    }
+  }
+  return WithItemComp;
+}
+export default withItem

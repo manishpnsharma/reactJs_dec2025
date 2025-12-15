@@ -35,9 +35,9 @@ import { createRoot } from 'react-dom/client'
 
 //import App from './Assignment-02/App.jsx';
 
-import App from './09a_composableComponents/App.jsx';
+//import App from './09a_composableComponents/App.jsx';
 
-//import App from './10_hoc/App.jsx';
+import App from './10_hoc/App.jsx';
 
 
 createRoot(document.getElementById('root')).render(

@@ -9,8 +9,8 @@ export default class CustomerListNormal extends React.Component {
   }
 
   addCustomer = (name) => {
-    this.setState(preState => {
-      return { customers: [...preState.customers, name.toUpperCase()] };
+    this.setState(prevState => {
+      return { customers: [...prevState.customers, name.toUpperCase()] };
     })
   }
   render() {

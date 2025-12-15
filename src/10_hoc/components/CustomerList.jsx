@@ -1,26 +1,30 @@
-import React, { component } from "react";
-export default class CommentList extends React.Component {
-  render() {
-    let commentNodes = this.props.comments && this.props.comments.map(comment => (
-      <Comment key={comment.id} author={comment.author}>
-        {comment.text}
-      </Comment>
-    ));
+import React, { Component } from "react";
+import withIteam from "./withIteam";
+class CustomerList extends React.Component {
+
+   constructor(props) {
+      super(props);
+      this.refName = React.createRef();
+      }
+render() {
+
+  const {items,addItem,heading}=this.props;
+    let itemList = items.map((item, index) => (
+      <li key={index}>{item} </li>
+    ))
     return (
       <>
-        <table border="1">
-          <thead>
-            <tr>
-              <th> Author</th>
-              <th> coments</th>
-            </tr>
-          </thead>
-          <tbody>
-            {commentNodes}
-          </tbody>
-        </table>
+        <h2> {heading}</h2>
+        <label>
+          enter Customer name :
+          <input type="text" ref={this.refName} ></input>
+        </label>
+        <button onClick={() => addItem(this.refName.current.value)}>Add Customer HOC</button>
+        <ul>
+          {itemList}
+        </ul>
       </>
-    );
+    )
   }
 }
-
+export default withIteam(CustomerList,0)
