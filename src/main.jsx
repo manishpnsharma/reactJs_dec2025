@@ -37,8 +37,10 @@ import { createRoot } from 'react-dom/client'
 
 //import App from './09a_composableComponents/App.jsx';
 
-import App from './10_hoc/App.jsx';
+//import App from './10_hoc/App.jsx';
+//import App from './09a_composableComponents/App.jsx';
 
+import App from './11_renderProps/App.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>

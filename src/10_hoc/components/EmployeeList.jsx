@@ -19,7 +19,7 @@ class EmployeeList extends React.Component {
           enter employe name :
           <input type="text" ref={this.refName} ></input>
         </label>
-        <button onClick={() =>addItem(this.refName.current.value)}>Add Emoloyee HOC</button>
+        <button onClick={() => addItem(this.refName.current.value)}>Add Emoloyee HOC</button>
         <ul>
           {itemList}
         </ul>
